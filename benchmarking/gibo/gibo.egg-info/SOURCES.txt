@@ -1,0 +1,5 @@
+setup.py
+gibo.egg-info/PKG-INFO
+gibo.egg-info/SOURCES.txt
+gibo.egg-info/dependency_links.txt
+gibo.egg-info/top_level.txt
