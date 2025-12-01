@@ -19,7 +19,7 @@ LES. After 14 evaluations, the convergence criterion (see Appx. E.1) stops the o
 If you find our code or paper useful, please consider citing
 
 ```
-@misc{stenger2025localentropysearchdescent,
+@misc{stenger2025local,
       title={Local Entropy Search over Descent Sequences for Bayesian Optimization}, 
       author={David Stenger and Armin Lindicke and Alexander von Rohr and Sebastian Trimpe},
       year={2025},
