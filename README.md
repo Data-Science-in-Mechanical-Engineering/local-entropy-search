@@ -8,7 +8,7 @@ Note that this is repository contains the code to reproduce the results reported
 
 ## Overview
 
-![Local Entropy Search Overview](LESoverview.png)
+![Local Entropy Search Overview](overview.png)
 
 Illustration of Local Entropy Search (LES) on a 2D example: a) After three initial evaluations, the distribution
 over reachable local optima is wide. b, c) As LES selects new points, evaluations concentrate near
