@@ -1,8 +1,8 @@
 # Local Entropy Search over Descent Sequences for Bayesian Optimization - Supplementary Material
 
-This repository contains the supplementary code for the ICLR submission titled "Local Entropy Search over Descent Sequences for Bayesian Optimization".
+This repository contains the supplementary code for the ICLR paper titled "Local Entropy Search over Descent Sequences for Bayesian Optimization".
 
-A preprint is available on [arXiv](https://arxiv.org/abs/2511.19241).
+You can find the paper on [OpenReview](openreview.net/forum?id=cPxmLZmFa7) and a preprint is available on [arXiv](https://arxiv.org/abs/2511.19241).
 
 Note that this is repository contains the code to reproduce the results reported in the paper. We are working on a BOtorch version of LES.
 
@@ -19,21 +19,19 @@ LES. After 14 evaluations, the convergence criterion (see Appx. E.1) stops the o
 If you find our code or paper useful, please consider citing
 
 ```
-@misc{stenger2025local,
-      title={Local Entropy Search over Descent Sequences for Bayesian Optimization}, 
+@inproceedings{stenger2026local,
+      title={Local Entropy Search over Descent Sequences for Bayesian Optimization},
       author={David Stenger and Armin Lindicke and Alexander von Rohr and Sebastian Trimpe},
-      year={2025},
-      eprint={2511.19241},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2511.19241}, 
+      booktitle={The Fourteenth International Conference on Learning Representations},
+      year={2026},
+      url={https://openreview.net/forum?id=cPxmLZmFa7}
 }
 ```
 
 ## Abstract 
 
 
-Searching large and complex design spaces for a global optimum can be infeasible and unnecessary. A practical alternative is to iteratively refine the neighborhood of an initial design using local optimization methods such as gradient descent. We propose local entropy search (LES), a Bayesian optimization paradigm that explicitly targets the solutions reachable by the descent sequences of iterative optimizers. The algorithm propagates the posterior belief over the objective through the optimizer, resulting in a probability distribution over descent sequences. It then selects the next evaluation by maximizing mutual information with that distribution, using a combination of analytic entropy calculations and Monte-Carlo sampling of descent sequences. Empirical results on high-complexity synthetic objectives and benchmark problems show that LES achieves strong sample efficiency compared to existing local and global Bayesian optimization methods. 
+Searching large and complex design spaces for a global optimum can be infeasible and unnecessary. A practical alternative is to iteratively refine the neighborhood of an initial design using local optimization methods such as gradient descent. We propose local entropy search (LES), a Bayesian optimization paradigm that explicitly targets the solutions reachable by the descent sequences of iterative optimizers. The algorithm propagates the posterior belief over the objective through the optimizer, resulting in a probability distribution over descent sequences. It then selects the next evaluation by maximizing mutual information with that distribution, using a combination of analytic entropy calculations and Monte-Carlo sampling of descent sequences. Empirical results on high-complexity synthetic objectives and benchmark problems show that LES achieves strong sample efficiency compared to existing local and global Bayesian optimization methods.
 
 
 ## Dependencies:
