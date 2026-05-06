@@ -1,10 +1,6 @@
 # Local Entropy Search over Descent Sequences for Bayesian Optimization - Supplementary Material
 
-This repository contains the supplementary code for the ICLR paper titled "Local Entropy Search over Descent Sequences for Bayesian Optimization".
-
-You can find the paper on [OpenReview](openreview.net/forum?id=cPxmLZmFa7) and a preprint is available on [arXiv](https://arxiv.org/abs/2511.19241).
-
-Note that this is repository contains the code to reproduce the results reported in the paper. We are working on a BOtorch version of LES.
+This repository contains the supplementary code for the ICLR paper titled "Local Entropy Search over Descent Sequences for Bayesian Optimization". It can be used to reproduce the experimental results.
 
 ## Overview
 
@@ -14,6 +10,11 @@ Illustration of Local Entropy Search (LES) on a 2D example: a) After three initi
 over reachable local optima is wide. b, c) As LES selects new points, evaluations concentrate near
 the descent sequence, and the distribution of the local optimum narrows. d) Convergence behavior of
 LES. After 14 evaluations, the convergence criterion (see Appx. E.1) stops the optimization..
+
+> [!TIP]
+> A re-implentation of LES is now available in [BoTorch](https://botorch.org/). The acquistion function is implemented [here](https://github.com/meta-pytorch/botorch/blob/main/botorch_community/acquisition/local_entropy_search.py) and a short tutorial notebook can be found [here](https://github.com/meta-pytorch/botorch/blob/main/notebooks_community/local_entropy_search/local_entropy_search.ipynb).
+
+You can find the paper on [OpenReview](openreview.net/forum?id=cPxmLZmFa7) and a preprint is available on [arXiv](https://arxiv.org/abs/2511.19241).
 
 ## Citation
 If you find our code or paper useful, please consider citing
@@ -27,6 +28,7 @@ If you find our code or paper useful, please consider citing
       url={https://openreview.net/forum?id=cPxmLZmFa7}
 }
 ```
+
 
 ## Abstract 
 
